@@ -12,6 +12,9 @@ body {
   background-color: var(--color-ffffff);
   letter-spacing: 0.02em;
 }
+.container{
+  width: 1158px;
+}
 
 .nav-logo {
   font-family: 'Raleway', sans-serif;
@@ -57,7 +60,10 @@ body {
 .button-main:focus{
   background-color: #404bbf;
 }
-
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-main {
   background-color: #2e2f42;
 }
