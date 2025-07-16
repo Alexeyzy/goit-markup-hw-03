@@ -32,6 +32,9 @@ img{
   padding: 120px 0;
 }
 
+ul{
+  padding-left: 0;
+}
 /* nav-main */
 .nav-main{
   display: flex;
