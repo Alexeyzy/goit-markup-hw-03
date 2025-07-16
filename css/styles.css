@@ -1,0 +1,130 @@
+:root {
+  --color-434455: #434455;
+  --color-ffffff: #ffffff;
+  --color-4d5ae5: #4d5ae5;
+  --color-2e2f42: #2e2f42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-434455);
+  line-height: 1.5;
+  background-color: var(--color-ffffff);
+  letter-spacing: 0.02em;
+}
+
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-4d5ae5);
+}
+.nav-logo-span {
+  color: var(--color-2e2f42);
+}
+
+.nav-address {
+  font-style: normal;
+}
+
+.nav-address-item{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455 ;
+}
+
+.nav-item {
+  font-weight: 500;
+  color: var(--color-434455);
+}
+
+.nav-item-active {
+  color: #2e2f42;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-address-item:hover,
+.nav-address-item:focus {
+  color: #404bbf;
+}
+
+.button-main:hover,
+.button-main:focus{
+  background-color: #404bbf;
+}
+
+.section-main {
+  background-color: #2e2f42;
+}
+
+.section-main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-ffffff);
+}
+.button-main {
+  background-color: #4D5AE5; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section-team{
+  background-color: #f4f4fd;
+}
+
+.section-team-li {
+  background-color: #FFFFFF;
+}
+.section-team-main-title,
+.section-portfolio-main-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-team-ul {
+  background-color: #ffffff;
+}
+.section-team-title,
+.section-portfolio-title,
+.section-chose-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-portfolio-p,
+.section-team-p,
+.section-chose-p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+  background-color: #2e2f42; 
+}
+.nav-logo-span-footer {
+  color: #f4f4fd;
+}
+.footer-p{
+  line-height: 1.5;
+  color: #F4F4FD; 
+  letter-spacing: 0.02em;
+}
