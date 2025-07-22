@@ -91,6 +91,7 @@ ul{
   color: #434455 ;
 }
 .nav-item {
+  display:block;
   font-weight: 500;
   color: var(--color-434455);
   padding: 24px 0;
